@@ -24,7 +24,7 @@ YMM4（YukkuriMovieMaker v4）で、空気の揺らぎや歪みを表現する�
 
 ### 導入方法
 
-1. **[リリースページ](https://github.com/YourUsername/YMM4-HeatHaze/releases)** から最新版の `.ymme` をダウンロードします。
+1. **[リリースページ](https://github.com/routersys/YMM4-HeatHaze/releases)** から最新版の `.ymme` をダウンロードします。
 2. ダウンロードした `.ymme` ファイルをダブルクリックします。
 3. インストール完了です。
 
