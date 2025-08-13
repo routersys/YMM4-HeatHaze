@@ -5,9 +5,8 @@
 [![Release](https://img.shields.io/github/v/release/routersys/YMM4-HeatHaze.svg)](https://github.com/routersys/YMM4-HeatHaze/releases)
 
 YMM4（YukkuriMovieMaker v4）で、空気の揺らぎや歪みを表現する「熱揺らぎ」エフェクトを実現するプラグインです。
-> [!Caution]
-> アップデートする予定はありません。
-
+> [!important]
+> v0.0.3作成中です
 ---
 
 ### 概要
