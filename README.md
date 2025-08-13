@@ -4,7 +4,7 @@
 [![.NET](https://img.shields.io/badge/.NET-9.0-purple.svg)](#)
 [![Release](https://img.shields.io/github/v/release/routersys/YMM4-HeatHaze.svg)](https://github.com/routersys/YMM4-HeatHaze/releases)
 
-YMM4（YukkuriMovieMaker v4）で、空気の揺らぎや歪みを表現する「陽炎（かげろう）」エフェクトを実現するプラグインです。
+YMM4（YukkuriMovieMaker v4）で、空気の揺らぎや歪みを表現する「熱揺らぎ」エフェクトを実現するプラグインです。
 > [!Caution]
 > アップデートする予定はありません。
 
@@ -33,7 +33,7 @@ YMM4（YukkuriMovieMaker v4）で、空気の揺らぎや歪みを表現する�
 ### 使い方
 
 1. タイムライン上のアイテム（動画・画像）を選択します。
-2. 設定パネルの「映像エフェクト」から「**陽炎**」を選択します。
+2. 設定パネルの「映像エフェクト」から「**熱揺らぎ**」を選択します。
 3. 各パラメータを調整して、好みの揺らぎ具合に設定してください。
 
 ### 免責事項
