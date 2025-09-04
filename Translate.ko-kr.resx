@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>ko-kr</value></data>
+<data name="ControlMode_Automatic" xml:space="preserve"><value>자동</value></data>
+<data name="ControlMode_Manual" xml:space="preserve"><value>수동</value></data>
+<data name="DebugViewMode_Result" xml:space="preserve"><value>최종 결과</value></data>
+<data name="DebugViewMode_NoiseView" xml:space="preserve"><value>노이즈 보기</value></data>
+<data name="GroupName_ControlMode" xml:space="preserve"><value>제어 모드</value></data>
+<data name="Name_ControlMode" xml:space="preserve"><value>모드 전환</value></data>
+<data name="Description_ControlMode" xml:space="preserve"><value>직관적인 "자동" 모드와 상세한 "수동" 모드 간에 제어 모드를 전환합니다.</value></data>
+<data name="GroupName_AutoSettings" xml:space="preserve"><value>자동 설정</value></data>
+<data name="Name_Temperature" xml:space="preserve"><value>온도</value></data>
+<data name="Description_Temperature" xml:space="preserve"><value>실제 온도를 시뮬레이션하여 반짝임의 강도와 속도를 자동으로 조정합니다.</value></data>
+<data name="Name_Humidity" xml:space="preserve"><value>습도</value></data>
+<data name="Description_Humidity" xml:space="preserve"><value>실제 습도를 시뮬레이션하여 반짝임의 질감을 조정합니다.</value></data>
+<data name="GroupName_ManualSettings" xml:space="preserve"><value>수동 설정</value></data>
+<data name="Name_Strength" xml:space="preserve"><value>강도</value></data>
+<data name="Description_Strength" xml:space="preserve"><value>이미지 왜곡의 양을 조정합니다.</value></data>
+<data name="Name_Scale" xml:space="preserve"><value>스케일</value></data>
+<data name="Description_Scale" xml:space="preserve"><value>왜곡 패턴의 크기를 조정합니다.</value></data>
+<data name="Name_FlowSpeed" xml:space="preserve"><value>흐름 속도</value></data>
+<data name="Description_FlowSpeed" xml:space="preserve"><value>전체 왜곡 패턴이 이동하는 속도를 제어합니다.</value></data>
+<data name="Name_BoilSpeed" xml:space="preserve"><value>끓는 속도</value></data>
+<data name="Description_BoilSpeed" xml:space="preserve"><value>왜곡 패턴이 제자리에서 변경되는 속도를 제어합니다.</value></data>
+<data name="GroupName_CommonSettings" xml:space="preserve"><value>공통 설정</value></data>
+<data name="Name_Angle" xml:space="preserve"><value>각도</value></data>
+<data name="Description_Angle" xml:space="preserve"><value>왜곡이 발생하는 방향을 조정합니다.</value></data>
+<data name="Name_ChromaticAberration" xml:space="preserve"><value>색수차</value></data>
+<data name="Description_ChromaticAberration" xml:space="preserve"><value>왜곡에 수반되는 RGB 색상 변화의 강도를 조정합니다.</value></data>
+<data name="Name_EnableBlur" xml:space="preserve"><value>연동 블러</value></data>
+<data name="Description_EnableBlur" xml:space="preserve"><value>開啟後，圖像會根據失真強度略微模糊。</value></data>
+<data name="Name_BlurStrength" xml:space="preserve"><value>블러 강도</value></data>
+<data name="Description_BlurStrength" xml:space="preserve"><value>왜곡과 관련된 블러의 강도를 조정합니다.</value></data>
+<data name="Name_PreventEdgeStretch" xml:space="preserve"><value>가장자리 늘어남 방지</value></data>
+<data name="Description_PreventEdgeStretch" xml:space="preserve"><value>開啟後，可以防止圖像邊緣因失真而被拉伸。</value></data>
+<data name="GroupName_Debug" xml:space="preserve"><value>디버그</value></data>
+<data name="Name_DebugMode" xml:space="preserve"><value>표시 모드</value></data>
+<data name="Description_DebugMode" xml:space="preserve"><value>出於調試目的，顯示內部生成的噪聲模式。</value></data>
+<data name="EffectName" xml:space="preserve"><value>아지랑이</value></data>
+</root>

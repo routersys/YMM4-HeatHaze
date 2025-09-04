@@ -1,0 +1,37 @@
+﻿Key,comment,ja-jp,en-us,zh-cn,zh-tw,ko-kr,es-es,ar-sa,id-id
+ControlMode_Automatic,自動,自動,Automatic,自动,自動,자동,Automático,تلقائي,Otomatis
+ControlMode_Manual,手動,手動,Manual,手动,手動,수동,Manual,يدوي,Manual
+DebugViewMode_Result,最終結果,最終結果,Result,最终结果,最終結果,최종 결과,Resultado,النتيجة,Hasil
+DebugViewMode_NoiseView,ノイズ表示,ノイズ表示,Noise View,噪声视图,噪聲視圖,노이즈 보기,Vista de ruido,عرض الضوضاء,Tampilan Noise
+GroupName_ControlMode,操作モード,操作モード,Control Mode,操作模式,操作模式,제어 모드,Modo de control,وضع التحكم,Mode Kontrol
+Name_ControlMode,モード切替,モード切替,Mode Switch,模式切换,模式切換,모드 전환,Cambio de modo,تبديل الوضع,Ganti Mode
+Description_ControlMode,"操作モードを、直感的な「自動」と、詳細な「手動」で切り替えます。","操作モードを、直感的な「自動」と、詳細な「手動」で切り替えます。","Switches the control mode between intuitive ""Automatic"" and detailed ""Manual"".","在直观的“自动”和详细的“手动”之间切换控制模式。","在直觀的“自動”和詳細的“手動”之間切換控制模式。","직관적인 ""자동"" 모드와 상세한 ""수동"" 모드 간에 제어 모드를 전환합니다.","Cambia el modo de control entre el ""Automático"" intuitivo y el ""Manual"" detallado.","يقوم بتبديل وضع التحكم بين ""تلقائي"" سهل الاستخدام و ""يدوي"" مفصل.","Beralih mode kontrol antara ""Otomatis"" yang intuitif dan ""Manual"" yang terperinci."
+GroupName_AutoSettings,自動設定,自動設定,Automatic Settings,自动设定,自動設定,자동 설정,Configuración automática,الإعدادات التلقائية,Pengaturan Otomatis
+Name_Temperature,温度,温度,Temperature,温度,溫度,온도,Temperatura,درجة الحرارة,Suhu
+Description_Temperature,"現実の温度を模倣して、揺らぎの強さや速さを自動調整します。","現実の温度を模倣して、揺らぎの強さや速さを自動調整します。","Automatically adjusts the strength and speed of the shimmer by simulating real-world temperature.","通过模拟真实世界的温度，自动调整闪烁的强度和速度。","通過模擬真實世界的溫度，自動調整閃爍的強度和速度。","실제 온도를 시뮬레이션하여 반짝임의 강도와 속도를 자동으로 조정합니다.","Ajusta automáticamente la intensidad y la velocidad del brillo simulando la temperatura del mundo real.","يضبط تلقائيًا قوة وسرعة التلألؤ من خلال محاكاة درجة حرارة العالم الحقيقي.","Secara otomatis menyesuaikan kekuatan dan kecepatan kilau dengan mensimulasikan suhu dunia nyata."
+Name_Humidity,湿度,湿度,Humidity,湿度,濕度,습도,Humedad,الرطوبة,Kelembaban
+Description_Humidity,"現実の湿度を模倣して、揺らぎの質感を調整します。","現実の湿度を模倣して、揺らぎの質感を調整します。","Adjusts the texture of the shimmer by simulating real-world humidity.","通过模拟真实世界的湿度来调整闪光的纹理。","通過模擬真實世界的濕度來調整閃光的紋理。","실제 습도를 시뮬레이션하여 반짝임의 질감을 조정합니다.","Ajusta la textura del brillo simulando la humedad del mundo real.","يضبط نسيج التلألؤ من خلال محاكاة رطوبة العالم الحقيقي.","Menyesuaikan tekstur kilau dengan mensimulasikan kelembapan dunia nyata."
+GroupName_ManualSettings,手動設定,手動設定,Manual Settings,手动设定,手動設定,수동 설정,Configuración manual,الإعدادات اليدوية,Pengaturan Manual
+Name_Strength,揺らぎの強さ,揺らぎの強さ,Strength,强度,強度,강도,Fuerza,القوة,Kekuatan
+Description_Strength,映像の歪みの大きさを調整します。,映像の歪みの大きさを調整します。,Adjusts the amount of image distortion.,调整图像失真的程度。,調整圖像失真的程度。,이미지 왜곡의 양을 조정합니다.,Ajusta la cantidad de distorsión de la imagen.,يضبط مقدار تشويه الصورة.,Menyesuaikan jumlah distorsi gambar.
+Name_Scale,揺らぎの細かさ,揺らぎの細かさ,Scale,尺度,尺度,스케일,Escala,الحجم,Skala
+Description_Scale,歪みのパターンの大きさを調整します。,歪みのパターンの大きさを調整します。,Adjusts the size of the distortion pattern.,调整失真图案的大小。,調整失真圖案的大小。,왜곡 패턴의 크기를 조정합니다.,Ajusta el tamaño del patrón de distorsión.,يضبط حجم نمط التشويه.,Menyesuaikan ukuran pola distorsi.
+Name_FlowSpeed,流れの速さ,流れの速さ,Flow Speed,流速,流速,흐름 속도,Velocidad de flujo,سرعة التدفق,Kecepatan Aliran
+Description_FlowSpeed,歪みパターン全体が移動する速度を制御します。,歪みパターン全体が移動する速度を制御します。,Controls the speed at which the entire distortion pattern moves.,控制整个失真图案的移动速度。,控制整個失真圖案的移動速度。,전체 왜곡 패턴이 이동하는 속도를 제어합니다.,Controla la velocidad a la que se mueve todo el patrón de distorsión.,يتحكم في سرعة تحرك نمط التشويه بأكمله.,Mengontrol kecepatan pergerakan seluruh pola distorsi.
+Name_BoilSpeed,うねりの速さ,うねりの速さ,Boil Speed,沸腾速度,沸騰速度,끓는 속도,Velocidad de ebullición,سرعة الغليان,Kecepatan Mendidih
+Description_BoilSpeed,歪みパターンがその場で変化する速度を制御します。,歪みパターンがその場で変化する速度を制御します。,Controls the speed at which the distortion pattern changes in place.,控制失真图案就地变化的速度。,控制失真圖案就地變化的速度。,왜곡 패턴이 제자리에서 변경되는 속도를 제어합니다.,Controla la velocidad a la que el patrón de distorsión cambia en su lugar.,يتحكم في سرعة تغير نمط التشويه في مكانه.,Mengontrol kecepatan perubahan pola distorsi di tempat.
+GroupName_CommonSettings,共通設定,共通設定,Common Settings,共通设定,共通設定,공통 설정,Configuración común,الإعدادات العامة,Pengaturan Umum
+Name_Angle,揺らぎの角度,揺らぎの角度,Angle,角度,角度,각도,Ángulo,الزاوية,Sudut
+Description_Angle,歪みが発生する方向を調整します。,歪みが発生する方向を調整します。,Adjusts the direction in which the distortion occurs.,调整失真发生的方向。,調整失真發生的方向。,왜곡이 발생하는 방향을 조정합니다.,Ajusta la dirección en la que se produce la distorsión.,يضبط اتجاه حدوث التشويه.,Menyesuaikan arah terjadinya distorsi.
+Name_ChromaticAberration,色収差の強さ,色収差の強さ,Chromatic Aberration,色差,色差,색수차,Aberración cromática,انحراف لوني,Aberasi Kromatik
+Description_ChromaticAberration,歪みに伴うRGBの色ズレの強さを調整します。,歪みに伴うRGBの色ズレの強さを調整します。,Adjusts the strength of the RGB color shift that accompanies the distortion.,调整伴随失真的 RGB颜色偏移的强度。,調整伴隨失真的 RGB顏色偏移的強度。,왜곡에 수반되는 RGB 색상 변화의 강도를 조정합니다.,Ajusta la intensidad del cambio de color RGB que acompaña a la distorsión.,يضبط قوة إزاحة لون RGB المصاحبة للتشويه.,Menyesuaikan kekuatan pergeseran warna RGB yang menyertai distorsi.
+Name_EnableBlur,連動ブラー,連動ブラー,Linked Blur,联动模糊,聯動模糊,연동 블러,Desenfoque vinculado,تمويه مرتبط,Blur Tertaut
+Description_EnableBlur,オンにすると、歪みの強さに応じて映像が僅かにぼやけます。,オンにすると、歪みの強さに応じて映像が僅かにぼやけます。,When turned on, the image blurs slightly according to the strength of the distortion.,开启后，图像会根据失真强度略微模糊。,開啟後，圖像會根據失真強度略微模糊。,켜면 왜곡의 강도에 따라 이미지가 약간 흐려집니다.,Cuando se activa, la imagen se desenfoca ligeramente según la intensidad de la distorsión.,عند التشغيل، تصبح الصورة ضبابية قليلاً وفقًا لقوة التشويه.,Saat diaktifkan, gambar akan sedikit buram sesuai dengan kekuatan distorsi.
+Name_BlurStrength,ブラーの強さ,ブラーの強さ,Blur Strength,模糊强度,模糊強度,블러 강도,Fuerza de desenfoque,قوة التمويه,Kekuatan Buram
+Description_BlurStrength,歪みに連動するぼかしの強さを調整します。,歪みに連動するぼかしの強さを調整します。,Adjusts the strength of the blur linked to the distortion.,调整与失真相关的模糊强度。,調整與失真相關的模糊強度。,왜곡과 관련된 블러의 강도를 조정합니다.,Ajusta la intensidad del desenfoque vinculado a la distorsión.,يضبط قوة التمويه المرتبط بالتشويه.,Menyesuaikan kekuatan blur yang terkait dengan distorsi.
+Name_PreventEdgeStretch,端の伸長を防止,端の伸長を防止,Prevent Edge Stretch,防止边缘拉伸,防止邊緣拉伸,가장자리 늘어남 방지,Evitar estiramiento de bordes,منع تمدد الحواف,Cegah Peregangan Tepi
+Description_PreventEdgeStretch,オンにすると、歪みによる映像の端の引き伸ばしを防ぎます。,オンにすると、歪みによる映像の端の引き伸ばしを防ぎます。,When turned on, it prevents the edges of the image from being stretched by the distortion.,开启后，可以防止图像边缘因失真而被拉伸。,開啟後，可以防止圖像邊緣因失真而被拉伸。,켜면 왜곡으로 인해 이미지 가장자리가 늘어나는 것을 방지합니다.,Cuando se activa, evita que los bordes de la imagen se estiren por la distorsión.,عند التشغيل، يمنع تمدد حواف الصورة بسبب التشويه.,Saat diaktifkan, ini mencegah tepi gambar meregang karena distorsi.
+GroupName_Debug,デバッグ,デバッグ,Debug,调试,調試,디버그,Depuración,تصحيح الأخطاء,Debug
+Name_DebugMode,表示モード,表示モード,Display Mode,显示模式,顯示模式,표시 모드,Modo de visualización,وضع العرض,Mode Tampilan
+Description_DebugMode,デバッグ用に、内部で生成されているノイズパターンを表示します。,デバッグ用に、内部で生成されているノイズパターンを表示します。,For debugging purposes, displays the internally generated noise pattern.,出于调试目的，显示内部生成的噪声模式。,出於調試目的，顯示內部生成的噪聲模式。,디버깅을 위해 내부적으로 생성된 노이즈 패턴을 표시합니다.,Para fines de depuración, muestra el patrón de ruido generado internamente.,لأغراض التصحيح، يعرض نمط الضوضاء الذي تم إنشاؤه داخليًا.,Untuk tujuan debugging, menampilkan pola noise yang dihasilkan secara internal.
+EffectName,熱揺らぎ,熱揺らぎ,Heat Shimmer,热浪,熱浪,아지랑이,Bruma de calor,تلألؤ حراري,Kilau Panas

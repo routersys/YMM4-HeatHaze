@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>es-es</value></data>
+<data name="ControlMode_Automatic" xml:space="preserve"><value>Automático</value></data>
+<data name="ControlMode_Manual" xml:space="preserve"><value>Manual</value></data>
+<data name="DebugViewMode_Result" xml:space="preserve"><value>Resultado</value></data>
+<data name="DebugViewMode_NoiseView" xml:space="preserve"><value>Vista de ruido</value></data>
+<data name="GroupName_ControlMode" xml:space="preserve"><value>Modo de control</value></data>
+<data name="Name_ControlMode" xml:space="preserve"><value>Cambio de modo</value></data>
+<data name="Description_ControlMode" xml:space="preserve"><value>Cambia el modo de control entre el "Automático" intuitivo y el "Manual" detallado.</value></data>
+<data name="GroupName_AutoSettings" xml:space="preserve"><value>Configuración automática</value></data>
+<data name="Name_Temperature" xml:space="preserve"><value>Temperatura</value></data>
+<data name="Description_Temperature" xml:space="preserve"><value>Ajusta automáticamente la intensidad y la velocidad del brillo simulando la temperatura del mundo real.</value></data>
+<data name="Name_Humidity" xml:space="preserve"><value>Humedad</value></data>
+<data name="Description_Humidity" xml:space="preserve"><value>Ajusta la textura del brillo simulando la humedad del mundo real.</value></data>
+<data name="GroupName_ManualSettings" xml:space="preserve"><value>Configuración manual</value></data>
+<data name="Name_Strength" xml:space="preserve"><value>Fuerza</value></data>
+<data name="Description_Strength" xml:space="preserve"><value>Ajusta la cantidad de distorsión de la imagen.</value></data>
+<data name="Name_Scale" xml:space="preserve"><value>Escala</value></data>
+<data name="Description_Scale" xml:space="preserve"><value>Ajusta el tamaño del patrón de distorsión.</value></data>
+<data name="Name_FlowSpeed" xml:space="preserve"><value>Velocidad de flujo</value></data>
+<data name="Description_FlowSpeed" xml:space="preserve"><value>Controla la velocidad a la que se mueve todo el patrón de distorsión.</value></data>
+<data name="Name_BoilSpeed" xml:space="preserve"><value>Velocidad de ebullición</value></data>
+<data name="Description_BoilSpeed" xml:space="preserve"><value>Controla la velocidad a la que el patrón de distorsión cambia en su lugar.</value></data>
+<data name="GroupName_CommonSettings" xml:space="preserve"><value>Configuración común</value></data>
+<data name="Name_Angle" xml:space="preserve"><value>Ángulo</value></data>
+<data name="Description_Angle" xml:space="preserve"><value>Ajusta la dirección en la que se produce la distorsión.</value></data>
+<data name="Name_ChromaticAberration" xml:space="preserve"><value>Aberración cromática</value></data>
+<data name="Description_ChromaticAberration" xml:space="preserve"><value>Ajusta la intensidad del cambio de color RGB que acompaña a la distorsión.</value></data>
+<data name="Name_EnableBlur" xml:space="preserve"><value>Desenfoque vinculado</value></data>
+<data name="Description_EnableBlur" xml:space="preserve"><value>켜면 왜곡의 강도에 따라 이미지가 약간 흐려집니다.</value></data>
+<data name="Name_BlurStrength" xml:space="preserve"><value>Fuerza de desenfoque</value></data>
+<data name="Description_BlurStrength" xml:space="preserve"><value>Ajusta la intensidad del desenfoque vinculado a la distorsión.</value></data>
+<data name="Name_PreventEdgeStretch" xml:space="preserve"><value>Evitar estiramiento de bordes</value></data>
+<data name="Description_PreventEdgeStretch" xml:space="preserve"><value>켜면 왜곡으로 인해 이미지 가장자리가 늘어나는 것을 방지합니다.</value></data>
+<data name="GroupName_Debug" xml:space="preserve"><value>Depuración</value></data>
+<data name="Name_DebugMode" xml:space="preserve"><value>Modo de visualización</value></data>
+<data name="Description_DebugMode" xml:space="preserve"><value>디버깅을 위해 내부적으로 생성된 노이즈 패턴을 표시합니다.</value></data>
+<data name="EffectName" xml:space="preserve"><value>Bruma de calor</value></data>
+</root>

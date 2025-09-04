@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>zh-cn</value></data>
+<data name="ControlMode_Automatic" xml:space="preserve"><value>自动</value></data>
+<data name="ControlMode_Manual" xml:space="preserve"><value>手动</value></data>
+<data name="DebugViewMode_Result" xml:space="preserve"><value>最终结果</value></data>
+<data name="DebugViewMode_NoiseView" xml:space="preserve"><value>噪声视图</value></data>
+<data name="GroupName_ControlMode" xml:space="preserve"><value>操作模式</value></data>
+<data name="Name_ControlMode" xml:space="preserve"><value>模式切换</value></data>
+<data name="Description_ControlMode" xml:space="preserve"><value>在直观的“自动”和详细的“手动”之间切换控制模式。</value></data>
+<data name="GroupName_AutoSettings" xml:space="preserve"><value>自动设定</value></data>
+<data name="Name_Temperature" xml:space="preserve"><value>温度</value></data>
+<data name="Description_Temperature" xml:space="preserve"><value>通过模拟真实世界的温度，自动调整闪烁的强度和速度。</value></data>
+<data name="Name_Humidity" xml:space="preserve"><value>湿度</value></data>
+<data name="Description_Humidity" xml:space="preserve"><value>通过模拟真实世界的湿度来调整闪光的纹理。</value></data>
+<data name="GroupName_ManualSettings" xml:space="preserve"><value>手动设定</value></data>
+<data name="Name_Strength" xml:space="preserve"><value>强度</value></data>
+<data name="Description_Strength" xml:space="preserve"><value>调整图像失真的程度。</value></data>
+<data name="Name_Scale" xml:space="preserve"><value>尺度</value></data>
+<data name="Description_Scale" xml:space="preserve"><value>调整失真图案的大小。</value></data>
+<data name="Name_FlowSpeed" xml:space="preserve"><value>流速</value></data>
+<data name="Description_FlowSpeed" xml:space="preserve"><value>控制整个失真图案的移动速度。</value></data>
+<data name="Name_BoilSpeed" xml:space="preserve"><value>沸腾速度</value></data>
+<data name="Description_BoilSpeed" xml:space="preserve"><value>控制失真图案就地变化的速度。</value></data>
+<data name="GroupName_CommonSettings" xml:space="preserve"><value>共通设定</value></data>
+<data name="Name_Angle" xml:space="preserve"><value>角度</value></data>
+<data name="Description_Angle" xml:space="preserve"><value>调整失真发生的方向。</value></data>
+<data name="Name_ChromaticAberration" xml:space="preserve"><value>色差</value></data>
+<data name="Description_ChromaticAberration" xml:space="preserve"><value>调整伴随失真的 RGB颜色偏移的强度。</value></data>
+<data name="Name_EnableBlur" xml:space="preserve"><value>联动模糊</value></data>
+<data name="Description_EnableBlur" xml:space="preserve"><value>the image blurs slightly according to the strength of the distortion.</value></data>
+<data name="Name_BlurStrength" xml:space="preserve"><value>模糊强度</value></data>
+<data name="Description_BlurStrength" xml:space="preserve"><value>调整与失真相关的模糊强度。</value></data>
+<data name="Name_PreventEdgeStretch" xml:space="preserve"><value>防止边缘拉伸</value></data>
+<data name="Description_PreventEdgeStretch" xml:space="preserve"><value>it prevents the edges of the image from being stretched by the distortion.</value></data>
+<data name="GroupName_Debug" xml:space="preserve"><value>调试</value></data>
+<data name="Name_DebugMode" xml:space="preserve"><value>显示模式</value></data>
+<data name="Description_DebugMode" xml:space="preserve"><value>displays the internally generated noise pattern.</value></data>
+<data name="EffectName" xml:space="preserve"><value>热浪</value></data>
+</root>

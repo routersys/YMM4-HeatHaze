@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>en-us</value></data>
+<data name="ControlMode_Automatic" xml:space="preserve"><value>Automatic</value></data>
+<data name="ControlMode_Manual" xml:space="preserve"><value>Manual</value></data>
+<data name="DebugViewMode_Result" xml:space="preserve"><value>Result</value></data>
+<data name="DebugViewMode_NoiseView" xml:space="preserve"><value>Noise View</value></data>
+<data name="GroupName_ControlMode" xml:space="preserve"><value>Control Mode</value></data>
+<data name="Name_ControlMode" xml:space="preserve"><value>Mode Switch</value></data>
+<data name="Description_ControlMode" xml:space="preserve"><value>Switches the control mode between intuitive "Automatic" and detailed "Manual".</value></data>
+<data name="GroupName_AutoSettings" xml:space="preserve"><value>Automatic Settings</value></data>
+<data name="Name_Temperature" xml:space="preserve"><value>Temperature</value></data>
+<data name="Description_Temperature" xml:space="preserve"><value>Automatically adjusts the strength and speed of the shimmer by simulating real-world temperature.</value></data>
+<data name="Name_Humidity" xml:space="preserve"><value>Humidity</value></data>
+<data name="Description_Humidity" xml:space="preserve"><value>Adjusts the texture of the shimmer by simulating real-world humidity.</value></data>
+<data name="GroupName_ManualSettings" xml:space="preserve"><value>Manual Settings</value></data>
+<data name="Name_Strength" xml:space="preserve"><value>Strength</value></data>
+<data name="Description_Strength" xml:space="preserve"><value>Adjusts the amount of image distortion.</value></data>
+<data name="Name_Scale" xml:space="preserve"><value>Scale</value></data>
+<data name="Description_Scale" xml:space="preserve"><value>Adjusts the size of the distortion pattern.</value></data>
+<data name="Name_FlowSpeed" xml:space="preserve"><value>Flow Speed</value></data>
+<data name="Description_FlowSpeed" xml:space="preserve"><value>Controls the speed at which the entire distortion pattern moves.</value></data>
+<data name="Name_BoilSpeed" xml:space="preserve"><value>Boil Speed</value></data>
+<data name="Description_BoilSpeed" xml:space="preserve"><value>Controls the speed at which the distortion pattern changes in place.</value></data>
+<data name="GroupName_CommonSettings" xml:space="preserve"><value>Common Settings</value></data>
+<data name="Name_Angle" xml:space="preserve"><value>Angle</value></data>
+<data name="Description_Angle" xml:space="preserve"><value>Adjusts the direction in which the distortion occurs.</value></data>
+<data name="Name_ChromaticAberration" xml:space="preserve"><value>Chromatic Aberration</value></data>
+<data name="Description_ChromaticAberration" xml:space="preserve"><value>Adjusts the strength of the RGB color shift that accompanies the distortion.</value></data>
+<data name="Name_EnableBlur" xml:space="preserve"><value>Linked Blur</value></data>
+<data name="Description_EnableBlur" xml:space="preserve"><value>When turned on</value></data>
+<data name="Name_BlurStrength" xml:space="preserve"><value>Blur Strength</value></data>
+<data name="Description_BlurStrength" xml:space="preserve"><value>Adjusts the strength of the blur linked to the distortion.</value></data>
+<data name="Name_PreventEdgeStretch" xml:space="preserve"><value>Prevent Edge Stretch</value></data>
+<data name="Description_PreventEdgeStretch" xml:space="preserve"><value>When turned on</value></data>
+<data name="GroupName_Debug" xml:space="preserve"><value>Debug</value></data>
+<data name="Name_DebugMode" xml:space="preserve"><value>Display Mode</value></data>
+<data name="Description_DebugMode" xml:space="preserve"><value>For debugging purposes</value></data>
+<data name="EffectName" xml:space="preserve"><value>Heat Shimmer</value></data>
+</root>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>ar-sa</value></data>
+<data name="ControlMode_Automatic" xml:space="preserve"><value>تلقائي</value></data>
+<data name="ControlMode_Manual" xml:space="preserve"><value>يدوي</value></data>
+<data name="DebugViewMode_Result" xml:space="preserve"><value>النتيجة</value></data>
+<data name="DebugViewMode_NoiseView" xml:space="preserve"><value>عرض الضوضاء</value></data>
+<data name="GroupName_ControlMode" xml:space="preserve"><value>وضع التحكم</value></data>
+<data name="Name_ControlMode" xml:space="preserve"><value>تبديل الوضع</value></data>
+<data name="Description_ControlMode" xml:space="preserve"><value>يقوم بتبديل وضع التحكم بين "تلقائي" سهل الاستخدام و "يدوي" مفصل.</value></data>
+<data name="GroupName_AutoSettings" xml:space="preserve"><value>الإعدادات التلقائية</value></data>
+<data name="Name_Temperature" xml:space="preserve"><value>درجة الحرارة</value></data>
+<data name="Description_Temperature" xml:space="preserve"><value>يضبط تلقائيًا قوة وسرعة التلألؤ من خلال محاكاة درجة حرارة العالم الحقيقي.</value></data>
+<data name="Name_Humidity" xml:space="preserve"><value>الرطوبة</value></data>
+<data name="Description_Humidity" xml:space="preserve"><value>يضبط نسيج التلألؤ من خلال محاكاة رطوبة العالم الحقيقي.</value></data>
+<data name="GroupName_ManualSettings" xml:space="preserve"><value>الإعدادات اليدوية</value></data>
+<data name="Name_Strength" xml:space="preserve"><value>القوة</value></data>
+<data name="Description_Strength" xml:space="preserve"><value>يضبط مقدار تشويه الصورة.</value></data>
+<data name="Name_Scale" xml:space="preserve"><value>الحجم</value></data>
+<data name="Description_Scale" xml:space="preserve"><value>يضبط حجم نمط التشويه.</value></data>
+<data name="Name_FlowSpeed" xml:space="preserve"><value>سرعة التدفق</value></data>
+<data name="Description_FlowSpeed" xml:space="preserve"><value>يتحكم في سرعة تحرك نمط التشويه بأكمله.</value></data>
+<data name="Name_BoilSpeed" xml:space="preserve"><value>سرعة الغليان</value></data>
+<data name="Description_BoilSpeed" xml:space="preserve"><value>يتحكم في سرعة تغير نمط التشويه في مكانه.</value></data>
+<data name="GroupName_CommonSettings" xml:space="preserve"><value>الإعدادات العامة</value></data>
+<data name="Name_Angle" xml:space="preserve"><value>الزاوية</value></data>
+<data name="Description_Angle" xml:space="preserve"><value>يضبط اتجاه حدوث التشويه.</value></data>
+<data name="Name_ChromaticAberration" xml:space="preserve"><value>انحراف لوني</value></data>
+<data name="Description_ChromaticAberration" xml:space="preserve"><value>يضبط قوة إزاحة لون RGB المصاحبة للتشويه.</value></data>
+<data name="Name_EnableBlur" xml:space="preserve"><value>تمويه مرتبط</value></data>
+<data name="Description_EnableBlur" xml:space="preserve"><value>Cuando se activa</value></data>
+<data name="Name_BlurStrength" xml:space="preserve"><value>قوة التمويه</value></data>
+<data name="Description_BlurStrength" xml:space="preserve"><value>يضبط قوة التمويه المرتبط بالتشويه.</value></data>
+<data name="Name_PreventEdgeStretch" xml:space="preserve"><value>منع تمدد الحواف</value></data>
+<data name="Description_PreventEdgeStretch" xml:space="preserve"><value>Cuando se activa</value></data>
+<data name="GroupName_Debug" xml:space="preserve"><value>تصحيح الأخطاء</value></data>
+<data name="Name_DebugMode" xml:space="preserve"><value>وضع العرض</value></data>
+<data name="Description_DebugMode" xml:space="preserve"><value>Para fines de depuración</value></data>
+<data name="EffectName" xml:space="preserve"><value>تلألؤ حراري</value></data>
+</root>

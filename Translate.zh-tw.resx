@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>zh-tw</value></data>
+<data name="ControlMode_Automatic" xml:space="preserve"><value>自動</value></data>
+<data name="ControlMode_Manual" xml:space="preserve"><value>手動</value></data>
+<data name="DebugViewMode_Result" xml:space="preserve"><value>最終結果</value></data>
+<data name="DebugViewMode_NoiseView" xml:space="preserve"><value>噪聲視圖</value></data>
+<data name="GroupName_ControlMode" xml:space="preserve"><value>操作模式</value></data>
+<data name="Name_ControlMode" xml:space="preserve"><value>模式切換</value></data>
+<data name="Description_ControlMode" xml:space="preserve"><value>在直觀的“自動”和詳細的“手動”之間切換控制模式。</value></data>
+<data name="GroupName_AutoSettings" xml:space="preserve"><value>自動設定</value></data>
+<data name="Name_Temperature" xml:space="preserve"><value>溫度</value></data>
+<data name="Description_Temperature" xml:space="preserve"><value>通過模擬真實世界的溫度，自動調整閃爍的強度和速度。</value></data>
+<data name="Name_Humidity" xml:space="preserve"><value>濕度</value></data>
+<data name="Description_Humidity" xml:space="preserve"><value>通過模擬真實世界的濕度來調整閃光的紋理。</value></data>
+<data name="GroupName_ManualSettings" xml:space="preserve"><value>手動設定</value></data>
+<data name="Name_Strength" xml:space="preserve"><value>強度</value></data>
+<data name="Description_Strength" xml:space="preserve"><value>調整圖像失真的程度。</value></data>
+<data name="Name_Scale" xml:space="preserve"><value>尺度</value></data>
+<data name="Description_Scale" xml:space="preserve"><value>調整失真圖案的大小。</value></data>
+<data name="Name_FlowSpeed" xml:space="preserve"><value>流速</value></data>
+<data name="Description_FlowSpeed" xml:space="preserve"><value>控制整個失真圖案的移動速度。</value></data>
+<data name="Name_BoilSpeed" xml:space="preserve"><value>沸騰速度</value></data>
+<data name="Description_BoilSpeed" xml:space="preserve"><value>控制失真圖案就地變化的速度。</value></data>
+<data name="GroupName_CommonSettings" xml:space="preserve"><value>共通設定</value></data>
+<data name="Name_Angle" xml:space="preserve"><value>角度</value></data>
+<data name="Description_Angle" xml:space="preserve"><value>調整失真發生的方向。</value></data>
+<data name="Name_ChromaticAberration" xml:space="preserve"><value>色差</value></data>
+<data name="Description_ChromaticAberration" xml:space="preserve"><value>調整伴隨失真的 RGB顏色偏移的強度。</value></data>
+<data name="Name_EnableBlur" xml:space="preserve"><value>聯動模糊</value></data>
+<data name="Description_EnableBlur" xml:space="preserve"><value>开启后，图像会根据失真强度略微模糊。</value></data>
+<data name="Name_BlurStrength" xml:space="preserve"><value>模糊強度</value></data>
+<data name="Description_BlurStrength" xml:space="preserve"><value>調整與失真相關的模糊強度。</value></data>
+<data name="Name_PreventEdgeStretch" xml:space="preserve"><value>防止邊緣拉伸</value></data>
+<data name="Description_PreventEdgeStretch" xml:space="preserve"><value>开启后，可以防止图像边缘因失真而被拉伸。</value></data>
+<data name="GroupName_Debug" xml:space="preserve"><value>調試</value></data>
+<data name="Name_DebugMode" xml:space="preserve"><value>顯示模式</value></data>
+<data name="Description_DebugMode" xml:space="preserve"><value>出于调试目的，显示内部生成的噪声模式。</value></data>
+<data name="EffectName" xml:space="preserve"><value>熱浪</value></data>
+</root>
